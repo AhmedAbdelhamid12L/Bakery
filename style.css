@@ -1,0 +1,414 @@
+body {
+  margin: 0%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*  side icon  */
+.side-icon {
+  background-color: white;
+  width: 40px;
+  height: 80px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  position: absolute;
+  right: 0px;
+  top: 200px;
+  position: fixed;
+  z-index: 10;
+}
+
+/* home section */
+.home {
+  height: 800px;
+  background-color: darkkhaki;
+  background-image: url(image/images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  position: relative;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+}
+
+.bk-img {
+  float: left;
+  width: 20%;
+}
+
+.bk-img img {
+  width: 80%;
+}
+
+.list {
+  float: right;
+}
+
+.list ul li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: white;
+  transition-duration: .5s;
+}
+
+.list .bord {
+  padding-top: 28px;
+  border-top: #ae9768 solid 3px;
+}
+
+.bg-alpha {
+  text-align: center;
+  padding-top: 150px;
+  margin: auto;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.home h5 {
+  margin-top: 100px;
+  font-size: 22px;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-bottom: 5px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.home h1 {
+  font-size: 74px;
+  font-weight: 400;
+  margin: 0px 0px 18px;
+  width: 100%;
+}
+
+.home p {
+  font-size: 24px;
+  font-family: "Alegreya Sans", sans-serif;
+  width: 100%;
+}
+
+.home .but-one {
+  padding: 15px 28px;
+  border: none;
+  background-color: #8e7754;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.home .but-two {
+  padding: 15px 28px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid white;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 600;
+  margin: 0px 0px 12px 12px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.home .but-three {
+  padding: 25px 15px;
+  background: none;
+  margin-top: 90px;
+  border-radius: 20px;
+  border: 2px white solid;
+  cursor: pointer;
+}
+
+/* who we are section */
+.who-we-are {
+  margin-top: 90px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.who-we-are .image1 {
+  width: 45%;
+  float: left;
+}
+
+.image1 img {
+  width: 100%;
+}
+
+.who-we-are .text {
+  width: 55%;
+  float: left;
+  padding: 30px 0px 80px 80px;
+}
+
+.contanier {
+  width: 90%;
+  margin: auto;
+}
+
+.clr {
+  clear: both;
+}
+
+.text h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #303030;
+}
+
+.text .p-one {
+  color: #686868;
+  margin: 40px;
+  font-size: 17px;
+}
+
+.text p {
+  color: #686868;
+  font-size: 17px;
+}
+
+/* our location section  */
+.our-location {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.our-location .text {
+  width: 55%;
+  float: left;
+  margin-top: 40px;
+}
+
+.our-location .image2 {
+  background-color: firebrick;
+  width: 45%;
+  float: left;
+}
+
+.image2 img {
+  width: 100%;
+}
+
+/* our baking section  */
+.our-baking .heading {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.heading h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #303030;
+}
+
+.heading p {
+  color: #686868;
+}
+
+.contant {
+  margin-top: 80px;
+}
+
+.contant div {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  padding: 0px 20px 0px 15px;
+}
+
+.contant div img {
+  width: 100%;
+}
+
+.contant div h4 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #303030;
+}
+
+.contant div p {
+  color: #686868;
+}
+
+/* contact section  */
+.contact {
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact .text {
+  width: 50%;
+  float: left;
+  padding-right: 25px;
+}
+
+.contact .map {
+  width: 50%;
+  float: left;
+  padding-left: 25px;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+.contact .text h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #303030;
+}
+
+.contact .text .p-contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact .text .p-margin {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+/* about section  */
+.about-top {
+  background-color: #403d38;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-top .contanier div {
+  width: 25%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about-top .Contact-Details {
+  background-image: url(image/images/contact-details-map.png);
+  background-size: 80% 50%;
+  background-repeat: no-repeat;
+  background-position: center 120px;
+}
+
+.about-top .contanier div p {
+  color: #969696;
+  white-space: pre;
+}
+
+.about-top .contanier div h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.about-bottom {
+  background-color: #353330;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0px;
+}
+
+.about-bottom p {
+  color: #969696;
+  font-size: 15px;
+}
+
+hr {
+  border: 0px;
+  border-bottom: rgba(128, 128, 128, 0.164) solid 1px;
+  width: 95%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*    media query    */
+@media screen and (max-width: 1200px) {
+  .about-top .contanier div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-top .contanier div {
+    width: 100%;
+  }
+
+  .who-we-are .image1 {
+    width: 100%;
+  }
+
+  .who-we-are .text {
+    width: 100%;
+  }
+
+  .our-location .text {
+    width: 100%;
+  }
+
+  .our-location .image2 {
+    width: 100%;
+  }
+
+  .contant div {
+    width: 100%;
+  }
+
+  .contact .text {
+    width: 100%;
+  }
+
+  .contact .map {
+    width: 100%;
+  }
+}
+
+.list li:hover a {
+  color: #ae9768;
+  transition-duration: .5s;
+}
+
+.home .but-one:hover {
+  background-color: white;
+  color: black;
+  transition: .5s;
+}
+
+.home .but-two:hover {
+  background-color: white;
+  color: black;
+  transition: .5s;
+}
+
+
